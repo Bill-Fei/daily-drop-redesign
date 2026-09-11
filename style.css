@@ -37,7 +37,7 @@
 .title-art{width:286px}
 @media(max-width:360px){.title-art{width:262px}}
 .event img{content:url("assets/hot-event-placeholder.png");object-position:center center}
-.title-art{transform:translateX(-8px)}
+.title-art{transform:translateX(-8px);margin-top:30px}
 .hero{background-position:calc(70% + 20px) 38%}
 .upcoming{position:relative;overflow:hidden}
 .upcoming:before{content:"";position:absolute;left:8%;right:8%;top:26px;height:240px;background:radial-gradient(ellipse at 34% 55%,#4d6eff28 0,transparent 48%),radial-gradient(ellipse at 72% 55%,#9b5cff18 0,transparent 46%);filter:blur(26px);pointer-events:none}
